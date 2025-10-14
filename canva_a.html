@@ -1,0 +1,20 @@
+<canvas id="canvas" width="600" height="400"></canvas>
+<script>
+  const canvas = document.getElementById("canvas");
+  const ctx = canvas.getContext("2d");
+  ctx.lineWidth = 2;
+  ctx.strokeRect(170, 190, 180, 170);          
+  ctx.beginPath();
+  ctx.moveTo(170, 190);
+  ctx.lineTo(260, 120);
+  ctx.lineTo(350, 190);
+  ctx.closePath();
+  ctx.stroke();
+  ctx.strokeRect(325, 135, 18, 45);
+  ctx.strokeRect(190, 215, 50, 50);           
+  ctx.strokeRect(280, 215, 50, 50);           
+  ctx.strokeRect(245, 280, 30, 80);
+  ctx.beginPath();
+  ctx.arc(470, 110, 35, 0, Math.PI * 2);
+  ctx.stroke();
+</script>
