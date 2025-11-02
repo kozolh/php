@@ -1,0 +1,50 @@
+.acdc{
+    z-index: 1;
+}
+#acdc{
+    width: 600px;
+    height: 600px;
+}
+img{
+    position: relative;
+    width: 150px;
+    height: 200px;
+    z-index: 2;
+}
+#horn{
+    top: -530px;
+    left: 70px;
+}
+.heart{
+    z-index: 3;
+}
+#heart{
+    width: 30px;
+    height: 30px;
+    top: -640px;
+    right: -355px;
+}
+#heart1{
+    width: 30px;
+    height: 30px;
+    top: -680px;
+    right: -405px;
+}
+.rainbow{
+    z-index: 4;
+}
+#rainbow{
+    width: 60px;
+    height: 60px;
+    top: -780px;
+    left: 180px;
+}
+.sung{
+    z-index: 5;
+}
+#sung{
+    width: 65px;
+    height: 45px;
+    top: -1130px;
+    left: 225px;
+}
